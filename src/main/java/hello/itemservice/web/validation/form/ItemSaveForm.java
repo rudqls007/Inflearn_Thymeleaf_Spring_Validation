@@ -19,6 +19,6 @@ public class ItemSaveForm {
     private Integer price;
 
     @NotNull
-    @Max(value = 9999, groups = SaveCheck.class)
+    @Max(value = 9999)
     private Integer quantity;
 }
